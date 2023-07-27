@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Navigasi_Bar"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".HistroyFragment"
             android:exported="false" />
         <activity
@@ -24,7 +27,7 @@
             android:name=".ProfileFragment"
             android:exported="false" />
         <activity
-            android:name=".ActivityMainBinding"
+            android:name=".ActivityNavigationBar2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
